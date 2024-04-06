@@ -1,0 +1,13 @@
+{
+  "name": "playwright_sdetpro",
+  "version": "1.0.0",
+  "description": "sdetpro playwright K14",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.1"
+  }
+}
