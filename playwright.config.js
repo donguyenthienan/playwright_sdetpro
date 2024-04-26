@@ -13,6 +13,7 @@ module.exports = defineConfig({
     use: {
         trace: 'on-first-retry',
         video: 'on-first-retry',
-        screenshot:'only-on-failure'
+        screenshot:'only-on-failure',
+        actionTimeout: 5000 //Implicit wait
     }
 })
