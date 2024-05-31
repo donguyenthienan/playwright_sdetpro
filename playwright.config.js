@@ -8,12 +8,12 @@ module.exports = defineConfig({
             use: {...devices['Desktop Chrome']}
         },
     ],
-    reporter: 'html',
+    reporter: [['html', { outputFolder: 'my-report' }]],
     retries: process.env.CI ? 2 : 1,
     use: {
         trace: 'on-first-retry',
         video: 'on-first-retry',
         screenshot:'only-on-failure',
-        actionTimeout: 5000 //Implicit wait
+        actionTimeout: 10000 //Implicit wait
     }
 })
