@@ -16,7 +16,7 @@ const PAGES = [
         slug: '/register'
     },
 ]
-
+// DataProvider / Data Driven
 PAGES.forEach(page => {
     const {pageName, slug} = page;
     test(`Test Footer component on ${pageName}`, async ({page}) => {

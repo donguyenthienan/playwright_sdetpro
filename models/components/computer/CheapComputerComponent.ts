@@ -2,7 +2,7 @@ import ComputerEssentialComponent from "./ComputerEssentialComponent";
 import {Locator} from "@playwright/test";
 import {selector} from "../SelectorDecorator";
 
-@selector(".CheapComputerComponent.selector")
+@selector(".product-essential")
 export default class CheapComputerComponent extends ComputerEssentialComponent {
 
     constructor(component: Locator) {
