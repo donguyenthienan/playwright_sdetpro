@@ -1,4 +1,4 @@
-import {Page} from "@playwright/test";
+import { Page } from "@playwright/test";
 import CartItemRowComponent from "../components/cart/CartItemRowComponent";
 import TotalComponent from "../components/cart/TotalComponent";
 
